@@ -10,7 +10,6 @@ import WhyUs from './components/WhyUs';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import AIAssistant from './components/AIAssistant';
 
 const App: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -53,9 +52,9 @@ const App: React.FC = () => {
         </section>
       </main>
       <Footer />
-      <AIAssistant />
     </div>
   );
 };
 
 export default App;
+
